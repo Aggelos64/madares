@@ -1372,8 +1372,18 @@
 
       .hero-bg {
           background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/out1.jpg");
-          background-size: auto !important;
-          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+      }
+
+      .amenities-left,
+      .amenities-right {
+          padding-left: 2rem;
+          padding-right: 2rem;
+      }
+
+      .amenity-grid {
+          grid-template-columns: 1fr;
       }
 
   }
@@ -1392,6 +1402,10 @@
       }
 
       .nav-links {
+          display: none;
+      }
+
+      .nav-cta {
           display: none;
       }
 
@@ -1417,7 +1431,7 @@
 
       .hero-bg {
           background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/out1.jpg");
-          background-size: auto;
-          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
       }
   }
