@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gallery & Amenities — Madares Apartments, Anopolis Sfakia Crete">
+    <link rel="icon" href="img/gold_logo_en_sd.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&family=Jost:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_gallery.css">
+    <title>Gallery — Madares Apartments</title>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav id="mainNav">
+        <a href="index.html" class="nav-logo">
+            <img src="img/gold_logo_en_sd.png" width="70px" alt="madares apartments" title="madares apartments">
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html#rooms">Apartments</a></li>
+            <li><a href="index.html#amenities">Anopolis</a></li>
+            <li><a href="index.html#testimonials">Experiences</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="lang-switcher" id="langSwitcher">
+                <button class="lang-btn" id="langToggle" aria-haspopup="true" aria-expanded="false">
+                    <span class="lang-globe">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <path
+                                d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                        </svg>
+                    </span>
+                    <span class="lang-current">EN</span>
+                    <span class="lang-caret">
+                        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="6 9 12 15 18 9" />
+                        </svg>
+                    </span>
+                </button>
+                <div class="lang-dropdown" id="langDropdown" role="menu">
+                    <button class="lang-option active" data-lang="EN" data-label="English" role="menuitem">
+                        <span class="lang-code">EN</span>
+                        <span class="lang-name">English</span>
+                        <span class="lang-check">✓</span>
+                    </button>
+                    <a href="indexgr.html" class="lang-option" data-lang="EL" data-label="Ελληνικά" role="menuitem">
+                        <span class="lang-code">EL</span>
+                        <span class="lang-name">Ελληνικά</span>
+                        <span class="lang-check">✓</span>
+                    </a>
+                    <a href="indexfr.html" class="lang-option" data-lang="FR" data-label="Français" role="menuitem">
+                        <span class="lang-code">FR</span>
+                        <span class="lang-name">Français</span>
+                        <span class="lang-check">✓</span>
+                    </a>
+                </div>
+            </div>
+            <a href="index.html#booking" class="nav-cta">Reserve Now</a>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="page-hero-bg"></div>
+        <div class="page-hero-content">
+            <p class="hero-eyebrow">Madares Apartments — Anopolis, Sfakia</p>
+            <h1>Spaces & <em>Amenities</em></h1>
+        </div>
+    </section>
+
+    <!-- AMENITIES -->
+    <section class="apt-amenities">
+        <div class="apt-amenities-header">
+            <p class="section-tag">What's Included</p>
+            <h2 class="section-title">Fully Equipped for <em>Relaxation</em></h2>
+            <p class="apt-amenities-intro">
+                Fully equipped apartments designed for relaxation — everything you need for a stress-free stay in
+                nature.
+            </p>
+        </div>
+
+        <div class="apt-amenities-grid">
+            <div class="apt-amenity-card">
+                <div class="apt-amenity-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.4">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                        <polyline points="9 22 9 12 15 12 15 22" />
+                    </svg>
+                </div>
+                <p class="apt-amenity-name">Comfortable Beds & Quality Linens</p>
+            </div>
+
+            <div class="apt-amenity-card">
+                <div class="apt-amenity-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.4">
+                        <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
+                        <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
+                        <line x1="6" y1="1" x2="6" y2="4" />
+                        <line x1="10" y1="1" x2="10" y2="4" />
+                        <line x1="14" y1="1" x2="14" y2="4" />
+                    </svg>
+                </div>
+                <p class="apt-amenity-name">Kitchenette with All Essential Amenities</p>
+            </div>
+
+            <div class="apt-amenity-card">
+                <div class="apt-amenity-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.4">
+                        <path d="M4 12h8m0 0V4m0 8v8m0-8h8" />
+                        <circle cx="12" cy="12" r="10" />
+                    </svg>
+                </div>
+                <p class="apt-amenity-name">Private Bathroom</p>
+            </div>
+
+            <div class="apt-amenity-card">
+                <div class="apt-amenity-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.4">
+                        <path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z" />
+                        <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+                        <line x1="9" y1="9" x2="9.01" y2="9" />
+                        <line x1="15" y1="9" x2="15.01" y2="9" />
+                    </svg>
+                </div>
+                <p class="apt-amenity-name">Air Conditioning / Heating</p>
+            </div>
+
+            <div class="apt-amenity-card">
+                <div class="apt-amenity-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.4">
+                        <path d="M5 12.55a11 11 0 0 1 14.08 0" />
+                        <path d="M1.42 9a16 16 0 0 1 21.16 0" />
+                        <path d="M8.53 16.11a6 6 0 0 1 6.95 0" />
+                        <line x1="12" y1="20" x2="12.01" y2="20" />
+                    </svg>
+                </div>
+                <p class="apt-amenity-name">Free Wi-Fi</p>
+            </div>
+
+            <div class="apt-amenity-card">
+                <div class="apt-amenity-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.4">
+                        <rect x="2" y="7" width="20" height="15" rx="2" ry="2" />
+                        <polyline points="17 2 12 7 7 2" />
+                    </svg>
+                </div>
+                <p class="apt-amenity-name">TV</p>
+            </div>
+
+            <div class="apt-amenity-card">
+                <div class="apt-amenity-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.4">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                        <rect x="9" y="14" width="6" height="8" />
+                    </svg>
+                </div>
+                <p class="apt-amenity-name">Outdoor Seating Area</p>
+            </div>
+
+            <div class="apt-amenity-card">
+                <div class="apt-amenity-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.4">
+                        <rect x="1" y="3" width="15" height="13" rx="2" />
+                        <polygon points="16 8 20 8 23 11 23 16 16 16 16 8" />
+                        <circle cx="5.5" cy="18.5" r="2.5" />
+                        <circle cx="18.5" cy="18.5" r="2.5" />
+                    </svg>
+                </div>
+                <p class="apt-amenity-name">Free Parking</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery-section">
+        <div class="gallery-header">
+            <p class="section-tag">Our Apartments</p>
+            <h2 class="section-title">A Closer <em>Look</em></h2>
+            <div class="gallery-divider">
+                <span></span>
+                <i></i>
+                <span></span>
+            </div>
+        </div>
+
+        <!--
+            HOW TO ADD PHOTOS:
+            Replace any placeholder div with:
+              <img src="img/gallery/thumbs/photo.webp"
+                   data-full="img/gallery/full/photo.webp"
+                   loading="lazy"
+                   alt="description">
+
+            Thumbs: ~800px wide, exported as WebP ~80-100KB each
+            Full:   original resolution WebP, only downloads when clicked
+        -->
+        <div class="gallery-grid">
+
+            <!-- GROUP 1: big LEFT + two smalls stacked right -->
+            <div class="gallery-item g-left">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+
+            <!-- GROUP 3: uniform row -->
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+
+
+            <!-- GROUP 2: big RIGHT + two smalls stacked left
+                 g-right must come FIRST so dense back-fills col 1 with the two smalls -->
+            <div class="gallery-item g-right">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+
+            <!-- GROUP 3: uniform row -->
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+
+            <!-- GROUP 1: big LEFT + two smalls stacked right -->
+            <div class="gallery-item g-left">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+
+            <!-- GROUP 3: uniform row -->
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+
+            <!-- GROUP 2: big RIGHT + two smalls stacked left
+                 g-right must come FIRST so dense back-fills col 1 with the two smalls -->
+            <div class="gallery-item g-right">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-placeholder">
+                    <svg class="gallery-placeholder-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.2">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <circle cx="8.5" cy="8.5" r="1.5" />
+                        <polyline points="21 15 16 10 5 21" />
+                    </svg>
+                    <span class="gallery-placeholder-label">Photo placeholder</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="index.html" class="nav-logo">
+                    <img src="img/gold_logo_en_sd.png" width="200px" alt="madares apartments"
+                        title="madares apartments">
+                </a>
+                <p class="footer-desc">Welcome to your home away from home.</p>
+            </div>
+
+            <div>
+                <p class="footer-col-title">Contact</p>
+                <ul class="footer-links">
+                    <li><a>+(30)6985080560</a></li>
+                    <li><a>+(30)6986158970</a></li>
+                    <li><a>+(30)2825091450</a></li>
+                    <li><a
+                            href="https://www.instagram.com/madares_apartments_anopolis/">IG:@madares_apartments_anopolis</a>
+                    </li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100028733335214">FB:Madares Apartments</a></li>
+                </ul>
+            </div>
+            <div>
+                <p class="footer-col-title">-</p>
+                <ul class="footer-links">
+                    <li><a>madaresanopoli@gmail.com</a></li>
+                    <li><a>Anopolis / Sfakia / Chania</a></li>
+                    <li><a>Crete 73011 GREECE</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="footer-copy">Madares Apartments.</p>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <img src="" alt="" id="lightboxImg">
+    </div>
+
+    <script>
+        const nav = document.getElementById('mainNav');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 60);
+        });
+
+        const switcher = document.getElementById('langSwitcher');
+        const toggle = document.getElementById('langToggle');
+        document.getElementById('langToggle').addEventListener('click', (e) => {
+            e.stopPropagation();
+            const open = switcher.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+        });
+        document.addEventListener('click', () => {
+            switcher.classList.remove('open');
+            toggle.setAttribute('aria-expanded', false);
+        });
+
+        // fade-in on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.style.opacity = '1';
+                    e.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.08 });
+
+        document.querySelectorAll('.apt-amenity-card, .gallery-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // lightbox — loads full image only on click via data-full
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightboxImg');
+        document.querySelectorAll('.gallery-item img').forEach(img => {
+            img.style.cursor = 'zoom-in';
+            img.addEventListener('click', () => {
+                lightboxImg.src = '';
+                lightboxImg.src = img.dataset.full || img.src;
+                lightboxImg.alt = img.alt;
+                lightbox.classList.add('open');
+            });
+        });
+        document.getElementById('lightboxClose').addEventListener('click', () => {
+            lightbox.classList.remove('open');
+            lightboxImg.src = '';
+        });
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.classList.remove('open');
+                lightboxImg.src = '';
+            }
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                lightbox.classList.remove('open');
+                lightboxImg.src = '';
+            }
+        });
+    </script>
+</body>
+
+</html>
