@@ -814,6 +814,10 @@
       justify-content: center;
   }
 
+  .amenities-right .btn-outline {
+      align-self: flex-end;
+  }
+
   .amenity-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;

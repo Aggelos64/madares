@@ -1,0 +1,244 @@
+/* PAGE HERO */
+.anopoli-hero-bg {
+    background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.65)), url("img/out2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* reuse the .page-hero block from style_gallery.css */
+.page-hero {
+    min-height: 55vh;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5rem;
+    overflow: hidden;
+}
+
+.page-hero-bg {
+    position: absolute;
+    inset: 0;
+}
+
+.page-hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.page-hero-content .hero-eyebrow {
+    margin-bottom: 1rem;
+}
+
+.page-hero-content h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    color: var(--warm-white);
+    line-height: 1.1;
+}
+
+.page-hero-content h1 em {
+    color: var(--gold-bright);
+    font-style: italic;
+}
+
+/* INTRO */
+.anopoli-intro {
+    padding: 6rem 4rem;
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+}
+
+.anopoli-intro .section-tag {
+    margin-bottom: 0.8rem;
+}
+
+.anopoli-intro .section-title {
+    margin-bottom: 2.5rem;
+}
+
+.anopoli-intro-body p {
+    font-size: 1.05rem;
+    line-height: 1.9;
+    color: var(--muted);
+    margin-bottom: 1.4rem;
+}
+
+.anopoli-intro-body p:last-child {
+    margin-bottom: 0;
+}
+
+/* DESTINATIONS */
+.destinations-section {
+    padding: 6rem 4rem 8rem;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.destinations-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.destinations-header .section-tag {
+    margin-bottom: 0.8rem;
+}
+
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+/* CARD */
+.dest-card {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(201, 168, 76, 0.12);
+    overflow: hidden;
+    transition: border-color 0.3s, transform 0.3s;
+}
+
+.dest-card:hover {
+    border-color: rgba(201, 168, 76, 0.4);
+    transform: translateY(-3px);
+}
+
+.dest-card-img {
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s ease;
+}
+
+.dest-card:hover .dest-card-img {
+    transform: scale(1.04);
+}
+
+.dest-card-body {
+    padding: 1.2rem 1.4rem;
+    background: var(--dark-3);
+    border-top: 1px solid rgba(201, 168, 76, 0.12);
+}
+
+.dest-card-title {
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold-bright);
+}
+
+/* MODAL */
+.dest-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 8, 4, 0.88);
+    z-index: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.dest-modal-overlay.open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.dest-modal {
+    position: relative;
+    background: var(--dark-3);
+    border: 1px solid rgba(201, 168, 76, 0.2);
+    max-width: 700px;
+    width: 100%;
+    max-height: 88vh;
+    overflow-y: auto;
+    transform: translateY(20px);
+    transition: transform 0.3s;
+}
+
+.dest-modal-overlay.open .dest-modal {
+    transform: translateY(0);
+}
+
+.dest-modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1.2rem;
+    background: none;
+    border: none;
+    color: var(--gold-bright);
+    font-size: 1.8rem;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 2;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.dest-modal-close:hover {
+    opacity: 1;
+}
+
+.dest-modal-img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.dest-modal-text {
+    padding: 2rem 2.4rem 2.4rem;
+}
+
+.dest-modal-text h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    color: var(--warm-white);
+    margin-bottom: 1.2rem;
+    line-height: 1.2;
+}
+
+.dest-modal-text p {
+    font-size: 1rem;
+    line-height: 1.85;
+    color: var(--muted);
+    margin-bottom: 1rem;
+}
+
+.dest-modal-text p:last-child {
+    margin-bottom: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .destinations-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .destinations-section {
+        padding: 4rem 2rem 6rem;
+    }
+
+    .anopoli-intro {
+        padding: 4rem 2rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .destinations-grid {
+        grid-template-columns: 1fr;
+    }
+}
