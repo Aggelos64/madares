@@ -275,20 +275,11 @@
   .hero-bg {
       position: absolute;
       inset: 0;
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/out2.jpg");
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/out3.jpg");
       background-size: 100% auto;
       background-repeat: no-repeat;
   }
 
-  .hero-grid {
-      position: absolute;
-      inset: 0;
-      opacity: 0.04;
-      background-image:
-          linear-gradient(var(--gold-mid) 1px, transparent 1px),
-          linear-gradient(90deg, var(--gold-mid) 1px, transparent 1px);
-      background-size: 60px 60px;
-  }
 
   .hero-content {
       position: relative;
@@ -1371,7 +1362,7 @@
       }
 
       .hero-bg {
-          background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/out1.jpg");
+          background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/out3.jpg");
           background-size: cover;
           background-position: center;
       }
@@ -1390,7 +1381,7 @@
 
   @media (max-width: 1430px) {
       .hero-bg {
-          background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/out1.jpg");
+          background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/out3.jpg");
           background-size: 100% auto;
           background-repeat: no-repeat;
       }
@@ -1430,7 +1421,7 @@
       }
 
       .hero-bg {
-          background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/out1.jpg");
+          background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/out3.jpg");
           background-size: cover;
           background-position: center;
       }
