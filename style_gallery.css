@@ -27,7 +27,7 @@
         }
 
         .page-hero-content h1 {
-            font-family: 'Cormorant Garamond', serif;
+            font-family: 'Cormorant Garamond', 'EB Garamond', serif;
             font-weight: 300;
             font-size: clamp(2.5rem, 6vw, 4.5rem);
             color: var(--warm-white);
@@ -111,7 +111,7 @@
         }
 
         .apt-amenity-name {
-            font-family: 'Cinzel', serif;
+            font-family: 'Cinzel', 'Alegreya SC', serif;
             font-size: 0.78rem;
             letter-spacing: 0.15em;
             text-transform: uppercase;
